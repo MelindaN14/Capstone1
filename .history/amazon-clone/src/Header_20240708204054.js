@@ -3,11 +3,7 @@ import "./Header.css";
 function Header() {
   return (
     <div className="Header">
-      <img
-        src="/Users/melindananjad/Downloads/logo._TTD_.png"
-        alt="google.com" />
-
-      <div className="Header__search"></div>
+      {/* <img src="FIND IMAGE OF AMAZON HEADER ETC" /> */}
     </div>
   );
 }

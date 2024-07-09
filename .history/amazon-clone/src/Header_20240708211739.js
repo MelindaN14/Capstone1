@@ -5,7 +5,8 @@ function Header() {
     <div className="Header">
       <img
         src="/Users/melindananjad/Downloads/logo._TTD_.png"
-        alt="google.com" />
+        alt="google.com"
+      />
 
       <div className="Header__search"></div>
     </div>
