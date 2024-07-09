@@ -18,7 +18,7 @@ function Header() {
       </div>
       <div className="header__option" type="text" />
       </React.Fragment>
-    //   I used <react.Fragment> instead of wrapping the multiple parent in a JSX fragment
+    //   I used <react.Fragment> instead of wrapping in a JSX fragment
   );
 }
 

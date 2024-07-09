@@ -17,8 +17,7 @@ function Header() {
         <div className="header__searchInput" type="text" />
       </div>
       <div className="header__option" type="text" />
-      </React.Fragment>
-    //   I used <react.Fragment> instead of wrapping the multiple parent in a JSX fragment
+    </React.Fragment>
   );
 }
 

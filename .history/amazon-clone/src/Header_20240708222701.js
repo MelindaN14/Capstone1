@@ -2,7 +2,7 @@ import React from "react";
 import "./Header.css";
 function Header() {
   return (
-    <React.Fragment>
+    <React>
       <div className="header">
         <img
           className="header__logo"
@@ -17,8 +17,7 @@ function Header() {
         <div className="header__searchInput" type="text" />
       </div>
       <div className="header__option" type="text" />
-      </React.Fragment>
-    //   I used <react.Fragment> instead of wrapping the multiple parent in a JSX fragment
+    </>
   );
 }
 
