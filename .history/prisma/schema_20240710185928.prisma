@@ -10,7 +10,7 @@ generator client {
 
 dataSource db {
   provider = "postgresql"
-  url      = env("DATABASE_URL="postgresql://postgres:@localhost:5432/mydb?schema=public)"
+  url      = env("DATABASE_URL")
 }
 
 generate client {
@@ -76,7 +76,7 @@ model OrderItem {
   product   Product  @relation(fields: [productId], references: [id])
 }
 model CartItem {
-  id        Int      @id @default(autoIncrement())
+  id        Int      @id @default(autoincrement())
   cartId    Int
   productId Int
   quantity  Int

@@ -10,7 +10,7 @@ generator client {
 
 dataSource db {
   provider = "postgresql"
-  url      = env("DATABASE_URL="postgresql://postgres:@localhost:5432/mydb?schema=public)"
+  url      = env("DATABASE_URL")
 }
 
 generate client {
@@ -18,10 +18,12 @@ generate client {
 }
 
 model User {
-   id        Int       @id @default(autoIncrement())
+   id        Int       @id @default(autoincrement())
   username  String    @unique
   password  String
   email     String    @unique
+  firstName String
+  lastName  String
   createdAt DateTime  @default(now())
   updatedAt DateTime  @updatedAt
   cart      Cart?
@@ -50,7 +52,7 @@ model Cart {
 }
 
 model CartItem {
-id Int  @id @default(autoIncrement())
+id Int
 cartId Int
 productId Int
 quantity Int
@@ -73,13 +75,5 @@ model OrderItem {
   productId Int
   quantity  Int
   order     Order    @relation(fields: [orderId], references: [id])
-  product   Product  @relation(fields: [productId], references: [id])
-}
-model CartItem {
-  id        Int      @id @default(autoIncrement())
-  cartId    Int
-  productId Int
-  quantity  Int
-  cart      Cart     @relation(fields: [cartId], references: [id])
   product   Product  @relation(fields: [productId], references: [id])
 }

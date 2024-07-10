@@ -4,7 +4,7 @@ function App() {
   return (
     //BEM
     <div className="App">
-      <h1>My Amazon Store </h1>
+      <h1>Building an Amazon Store </h1>
       {/* {Header Nav} */}
       {/* {Home Nav} */}
     </div>
