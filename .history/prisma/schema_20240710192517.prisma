@@ -9,8 +9,7 @@ generator client {
 }
 
 dataSource db {
-  provider = "postgresql"
-  url      = env("DATABASE_URL")
+  provider = "postgresql")="postgresql://postgres:@localhost:5432/mydb?schema=public)"
 }
 
 generate client {

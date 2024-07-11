@@ -23,12 +23,9 @@ function Header() {
               className='header__optionLineOne'>HelloGuest </span>
           <span
               className='header__optionLineTwo'>Sign In</span>
-        </div>
-
-      </div>
-
-       </div>
-   
+          </div>
+    {/* </React.Fragment>
+    //   I used <react.Fragment> instead of wrapping the multiple parent div in a JSX fragment <> */}
   );
 }
 

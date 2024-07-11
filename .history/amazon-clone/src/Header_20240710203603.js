@@ -3,7 +3,7 @@ import "./Header.css";
 
 function Header() {
   return (
-    // <React.Fragment>
+    <React.Fragment>
       <div className="header">
         <img className="header__logo" src="" alt="amazon.com" />
 
@@ -20,15 +20,9 @@ function Header() {
 
           <div className="header__option">
             <span
-              className='header__optionLineOne'>HelloGuest </span>
-          <span
-              className='header__optionLineTwo'>Sign In</span>
-        </div>
-
-      </div>
-
-       </div>
-   
+            className
+    </React.Fragment>
+    //   I used <react.Fragment> instead of wrapping the multiple parent div in a JSX fragment <>
   );
 }
 

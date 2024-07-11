@@ -8,9 +8,9 @@ generator client {
   provider = "prisma-client-js"
 }
 
-dataSource db {
+datasource db {
   provider = "postgresql"
-  url      = env("DATABASE_URL="postgresql://postgres:@localhost:5432/mydb?schema=public)"
+  url      = env("DATABASE_URL")
 }
 
 generate client {
