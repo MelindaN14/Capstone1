@@ -5,11 +5,11 @@ function Header() {
   return (
     // <React.Fragment>
     <div className="header">
-      <img
-        className="header__logo"
-        src="/Users/melindananjad/Documents/Capstone1/am.jpeg"
-        alt="amazon.com"
-      />
+      <img className="header__logo" src="" alt="amazon.com" />
+
+      {/* className="header__logo"
+          src="https://www.amazon.com/ref=nav_logo"
+          alt="amazon.com" */}
 
       <div className="header__search">
         <input className="header__searchInput" type="text" />

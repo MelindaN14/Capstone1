@@ -7,7 +7,7 @@ function Header() {
     <div className="header">
       <img
         className="header__logo"
-        src="/Users/melindananjad/Documents/Capstone1/am.jpeg"
+        src=""
         alt="amazon.com"
       />
 

@@ -1,6 +1,6 @@
 import "./App.css";
 import Header from "./Header.js";
-// import Header from "./Header.css";
+import Header from "./Header.css";
 function App() {
   return (
     //BEM

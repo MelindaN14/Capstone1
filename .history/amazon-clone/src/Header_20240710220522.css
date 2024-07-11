@@ -1,0 +1,14 @@
+.header {
+  height: 60px;
+  display: flex;
+align-items: center;
+background-color:222f3e;
+position: sticky;
+top:0;
+z-index: 100;
+}
+
+.header__logo {
+    width: 100px;
+    object-fit
+}

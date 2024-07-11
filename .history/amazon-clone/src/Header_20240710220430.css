@@ -1,0 +1,8 @@
+.header {
+  height: 60px;
+  display: flex;
+align-items: center;
+background-color:222f3e;
+position: sticky;
+
+}
