@@ -5,11 +5,7 @@ function Header() {
   return (
     // <React.Fragment>
     <div className="header">
-      <img
-        className="header__logo"
-        src="/Users/melindananjad/Documents/Capstone1/am.jpeg"
-        alt="amazon.com"
-      />
+      <img className="header__logo" img src="" alt="amazon.com" />
 
       <div className="header__search">
         <input className="header__searchInput" type="text" />
@@ -18,7 +14,7 @@ function Header() {
 
       <div className="header__nav">
         <div className="header__option">
-          <span className="header__optionLineOne">HelloGuest </span>
+          <span className="header__optionLineOne">Hello Guest </span>
           <span className="header__optionLineTwo">Sign In</span>
         </div>
 
