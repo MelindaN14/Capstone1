@@ -23,10 +23,10 @@
 }
 
 .header__searchInput {
-  height: 12px;
-  padding: 10px;
-  border: none;
-  width: 100%;
+    height:12px;
+    padding: 10px;
+    border: none;
+    width: 100%
 }
 
 .header__searchIcon {

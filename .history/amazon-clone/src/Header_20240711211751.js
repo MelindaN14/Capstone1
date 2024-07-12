@@ -1,18 +1,15 @@
 import React from "react";
 import "./Header.css";
-import Header__logo from "./amazon-logo.jpeg";
 import SearchIcon from "@mui/icons-material/Search";
 
 function Header() {
   return (
     // <React.Fragment>
-    <div className="header">
+    <div className='header'>
       <img
         className="header__logo"
-        src="amazon-clone/src/amazon-logo.jpeg"
-        // fix image its too large and distorts website
-        alt="amazon-logo.jpeg"
-      />
+        src="amazon-clone/src/amazon-logo.jpeg" alt = "" />
+
       <div className="header__search">
         <input className="header__searchInput" type="text" />
         <SearchIcon className="header__searchIcon" />
