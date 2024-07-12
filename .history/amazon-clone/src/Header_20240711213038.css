@@ -36,23 +36,14 @@
 }
 
 .header__nav {
-  display: flex;
-  justify-content: space-evenly;
+    display: flex;
+    
 }
 
 .header__option {
-  display: flex;
-  flex-direction: column;
-  margin-left: 10px;
-  margin-right: 10px;
-  color: white;
-}
-
-.header__optionLineOne {
-  font-size: 10px;
-}
-
-.header__optionLineTwo {
-  font-size: 13px;
-  font-weight: 800;
+    display:flex;
+    flex-direction:column;
+    margin-left: 10px;
+    margin-right: 10px;
+    color:white;
 }

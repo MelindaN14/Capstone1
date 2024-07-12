@@ -28,7 +28,7 @@ function Header() {
         <div className="header__option">
           <span className="optionLineOne"> Returns </span>
 
-          <span className="header__optionLineTwo"> & Orders</span>
+          <span className="header__optionLineTwo"> &Orders</span>
         </div>
 
         <div className="header__option">
