@@ -1,7 +1,7 @@
-import React from "react";
 import "./App.css";
 import Header from "./Header.js";
-import Header__logo from "./amazon-logo.jpeg";
+import logo from "./amazon-logo.jpeg";
+console.log
 // import Styles from "./App.module.css";
 // import compressorComp from "./Components/Compressor";
 // import "bootstrap/dist/css/bootstrap.css";
@@ -10,7 +10,8 @@ function App() {
   return (
     //BEM
     <div className="App">
-      {/* <img src={Header__logo} alt="amazon-logo.jpeg" /> */}
+      <h1>My Amazon Store </h1>
+      <img src={logo} alt="amazon-logo.jpeg" />
       {/* <div className={Styles.block}></div> */}
       <Header />
       {/* {Home Nav} */}

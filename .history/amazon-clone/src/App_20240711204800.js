@@ -10,7 +10,7 @@ function App() {
   return (
     //BEM
     <div className="App">
-      {/* <img src={Header__logo} alt="amazon-logo.jpeg" /> */}
+      <img src={Header__logo} alt="amazon-logo.jpeg" />
       {/* <div className={Styles.block}></div> */}
       <Header />
       {/* {Home Nav} */}

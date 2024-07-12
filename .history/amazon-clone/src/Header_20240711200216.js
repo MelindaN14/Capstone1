@@ -1,21 +1,14 @@
 import React from "react";
 import "./Header.css";
-import SearchIcon from "@mui/icons-material/Search";
 
 function Header() {
   return (
     // <React.Fragment>
     <div className="header">
-      <img
-        className="header__logo"
-        img
-        src="amazon-clone/src/amazon-logo.jpeg"
-        alt="amazon.com"
-      />
+      <img className="header__logo" img src="" alt="amazon.com" />
 
       <div className="header__search">
         <input className="header__searchInput" type="text" />
-        <SearchIcon className="header__searchIcon" />
         {/* {Logo} */}
       </div>
 
