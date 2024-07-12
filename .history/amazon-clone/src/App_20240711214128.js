@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <img
         src={Header__logo}
-        alt="amazon-logo"
+        alt="amazon-logo.jpeg"
         style={{ width: "60px;", height: "auto" }}
       />
       {/* <div className={Styles.block}></div> */}

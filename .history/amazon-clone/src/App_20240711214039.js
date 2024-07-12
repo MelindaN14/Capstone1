@@ -10,11 +10,7 @@ function App() {
   return (
     //BEM
     <div className="App">
-      <img
-        src={Header__logo}
-        alt="amazon-logo"
-        style={{ width: "60px;", height: "auto" }}
-      />
+      <img src={Header__logo} alt="amazon-logo.jpeg" style={{ width: 6}} />
       {/* <div className={Styles.block}></div> */}
       <Header />
       {/* {Home Nav} */}
