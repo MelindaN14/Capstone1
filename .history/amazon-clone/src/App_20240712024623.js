@@ -10,7 +10,10 @@ function App() {
   return (
     //BEM
     <div className="App">
-      
+
+      render () {
+        return <img className = "photo" src= {require}
+      }
       {/* <img
         src={Header__logo}
         alt="amazon-logo"
