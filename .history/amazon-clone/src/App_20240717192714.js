@@ -16,11 +16,10 @@ function App() {
         alt="amazon-logo"
         style={{ width: "60px;", height: "auto" }} */}
       />
-    {/* Picture is too large and takes up entire page */}
+    
       {/* <div className={Styles.block}></div> */}
       <Header />
-      {/* <Home /> */}
-      {/* {Home} */}
+      {/* {Home Nav} */}
     </div>
   );
 }
