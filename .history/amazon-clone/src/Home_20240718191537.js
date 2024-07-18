@@ -2,7 +2,7 @@ import React from "react";
 import "./Home.css";
 import "./App.css";
 import Header from "./Header.js";
-import Header__logo from "./Alogo._TTD_.png";
+import Header__logo from "./amazon-logo.jpeg";
 // import home__image from "./amazon-advertising-2021-652x342.jpg.web;
 // import ListIcon from "@mui/icons-material/List";
 

@@ -10,7 +10,7 @@ function Header() {
       <img
         className="header__logo"
         src="amazon-clone/src/Alogo._TTD_.png"
-        // fix image its not on the header?!
+        // fix image its not on the header
         alt="amazon-clone/src/Alogo._TTD_.png"
       />
       <div className="header__search">

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.css";
-import header__logo from "./Alogo._TTD_.png";
+import Header__logo from "./Alogo._TTD_.png";
 import SearchIcon from "@mui/icons-material/Search";
 import ShoppingBasketIcon from "@mui/icons-material/ShoppingBasket";
 function Header() {
@@ -10,7 +10,7 @@ function Header() {
       <img
         className="header__logo"
         src="amazon-clone/src/Alogo._TTD_.png"
-        // fix image its not on the header?!
+        // fix image its too large and distorts website
         alt="amazon-clone/src/Alogo._TTD_.png"
       />
       <div className="header__search">

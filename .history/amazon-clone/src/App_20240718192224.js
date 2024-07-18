@@ -12,10 +12,10 @@ function App() {
   return (
     //BEM
     <div className="App">
-      <img
+      {/* <img
         src={Header__logo}
         alt="amazon__logo"
-        // style={{ width: "60px;", height: "auto" }}
+        style={{ width: "60px;", height: "auto" }} */}
       />
       {/* Picture is too large and takes up entire page */}
       {/* <div className={Styles.block}></div> */}
