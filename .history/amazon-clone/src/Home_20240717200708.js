@@ -7,10 +7,10 @@ import Header__logo from "./amazon-logo.jpeg";
 import React from "react";
 
 function Home() {
-  return (
-    <div className="home">
-      <p> The Home component</p>
-    </div>
+    return (
+        <div className="home">
+            <p> The Home component</p>
+        </div>;
   );
 }
 
