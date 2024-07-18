@@ -6,9 +6,9 @@ import Header__logo from "./amazon-logo.jpeg";
 
 function Home() {
   return (
-    <div className="home">
-      <div className="home__container" />
-      <img src="" alt="" />
+      <div className="home">
+          <div className="home__container" />
+          
       <p> The Home component</p>
     </div>
   );

@@ -8,7 +8,7 @@ function Header() {
     // <React.Fragment>
     <div className="header">
       <img
-        className="header__logo"
+        className="Header__logo"
         src="amazon-clone/src/amazon-logo.jpeg"
         // fix image its too large and distorts website
         alt="amazon-logo.jpeg"
@@ -36,7 +36,7 @@ function Header() {
           <span className="header__optionLineTwo">Prime</span>
         </div>
         <div className="header__optionBasket">
-          <ShoppingBasketIcon />
+          <ShoppingBasketIcon/>
           <span className="header__optionLineTwo header__basketCount">0</span>
         </div>
       </div>

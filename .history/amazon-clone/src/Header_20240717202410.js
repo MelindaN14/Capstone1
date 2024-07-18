@@ -6,9 +6,9 @@ import ShoppingBasketIcon from "@mui/icons-material/ShoppingBasket";
 function Header() {
   return (
     // <React.Fragment>
-    <div className="header">
+    <div className="eader">
       <img
-        className="header__logo"
+        className="Header__logo"
         src="amazon-clone/src/amazon-logo.jpeg"
         // fix image its too large and distorts website
         alt="amazon-logo.jpeg"

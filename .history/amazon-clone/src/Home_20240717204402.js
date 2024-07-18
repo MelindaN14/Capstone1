@@ -8,7 +8,7 @@ function Home() {
   return (
     <div className="home">
       <div className="home__container" />
-      <img src="" alt="" />
+<img src="https://images-e"/>
       <p> The Home component</p>
     </div>
   );

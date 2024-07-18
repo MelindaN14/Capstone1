@@ -8,7 +8,10 @@ function Home() {
   return (
     <div className="home">
       <div className="home__container" />
-      <img src="" alt="" />
+      <img
+        src=""
+        alt=""
+      />
       <p> The Home component</p>
     </div>
   );

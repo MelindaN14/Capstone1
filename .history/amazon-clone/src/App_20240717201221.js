@@ -1,8 +1,8 @@
 import React from "react";
 import "./App.css";
 import Header from "./Header.js";
-// import Header__logo from "./amazon-logo.jpeg";
-// import Header from "./Header";
+import Header__logo from "./amazon-logo.jpeg";
+import Header from "./Header";
 import Home from "./Home";
 // import Styles from "./App.module.css";
 // import compressorComp from "./Components/Compressor";
@@ -14,13 +14,14 @@ function App() {
     <div className="App">
       {/* <img
         src={Header__logo}
-        alt="amazon__logo"
+        alt="Header-logo"
         style={{ width: "60px;", height: "auto" }} */}
       />
       {/* Picture is too large and takes up entire page */}
       {/* <div className={Styles.block}></div> */}
       <Header />
-      <Home />
+      {/* <Home /> */}
+      {/* {Home} */}
     </div>
   );
 }

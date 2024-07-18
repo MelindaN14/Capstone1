@@ -1,8 +1,8 @@
 import React from "react";
 import "./App.css";
 import Header from "./Header.js";
-// import Header__logo from "./amazon-logo.jpeg";
-// import Header from "./Header";
+import Header__logo from "./amazon-logo.jpeg";
+import Header from "./Header";
 import Home from "./Home";
 // import Styles from "./App.module.css";
 // import compressorComp from "./Components/Compressor";
@@ -12,15 +12,16 @@ function App() {
   return (
     //BEM
     <div className="App">
-      {/* <img
+      <img
         src={Header__logo}
         alt="amazon__logo"
-        style={{ width: "60px;", height: "auto" }} */}
+        style={{ width: "60px;", height: "auto" }}
       />
       {/* Picture is too large and takes up entire page */}
       {/* <div className={Styles.block}></div> */}
       <Header />
-      <Home />
+      {/* <Home /> */}
+      {/* {Home} */}
     </div>
   );
 }

@@ -19,8 +19,8 @@ function App() {
       />
       {/* Picture is too large and takes up entire page */}
       {/* <div className={Styles.block}></div> */}
-      <Header />
-      <Home />
+      {/* <Header />
+      <Home /> */}
     </div>
   );
 }
