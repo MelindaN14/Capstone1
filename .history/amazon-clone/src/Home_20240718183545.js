@@ -3,7 +3,7 @@ import "./Home.css";
 import "./App.css";
 import Header from "./Header.js";
 import Header__logo from "./amazon-logo.jpeg";
-import ListIcon from "@mui/icons-material/List";
+
 
 function Home() {
   return (
