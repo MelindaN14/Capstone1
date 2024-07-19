@@ -24,10 +24,14 @@ function Home() {
         <product />
       </div>
 
-      <div className="product__info"></div>
+      <div className="product__imnfo"></div>
 
-      <div className="Logo" />
-      <img className="header__logo" src="{header__logo}" alt="" />
+      <div className="headerLogo" />
+      <img
+        className="header__logo"
+        src="{}"
+        alt=""
+      />
 
       {/* <p> The Home component</p> */}
     </div>

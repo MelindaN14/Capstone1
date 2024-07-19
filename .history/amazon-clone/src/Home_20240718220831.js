@@ -27,7 +27,11 @@ function Home() {
       <div className="product__info"></div>
 
       <div className="Logo" />
-      <img className="header__logo" src="{header__logo}" alt="" />
+      <img
+        className="header__logo"
+        src="{header__logo}"
+        alt=""
+      />
 
       {/* <p> The Home component</p> */}
     </div>
