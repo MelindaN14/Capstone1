@@ -13,7 +13,7 @@ function Product() {
           <strong>19.99</strong>{" "}
         </p>
         <div className="product__rating">
-          <p>****</p>
+          <p>*</p>
         </div>
       </div>
       <img className="book" src={book} alt="" />
