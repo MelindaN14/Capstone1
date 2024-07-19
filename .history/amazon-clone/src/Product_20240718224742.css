@@ -1,0 +1,18 @@
+.book {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 10px;
+  padding: 20px;
+  width: 50%;
+  max-height: 400px;
+  min-width: 100px;
+}
+
+.book > img {
+  max-height: 200px;
+  width: 50%;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
