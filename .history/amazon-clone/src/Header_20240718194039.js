@@ -1,9 +1,8 @@
 import React from "react";
 import "./Header.css";
-import header__logo from "./Alogo._TTD_.png";
+import "header__logo from "./Alogo._TTD_.png";
 import SearchIcon from "@mui/icons-material/Search";
 import ShoppingBasketIcon from "@mui/icons-material/ShoppingBasket";
-// import from "./pexels-photo-281260.jpeg";
 function Header() {
   return (
     // <React.Fragment>

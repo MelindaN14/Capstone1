@@ -20,22 +20,16 @@ function Home() {
         className="header__logo"
         src="amazon-clone/src/pexels-photo-281260.jpeg"
         alt=""
-      />
-      <div className="home__row">
-        {/* {product} */}
-        {/* {product} */}
-      </div>
-
-      <div className="home__row">
-        {/* {product} */}
-        {/* {product} */}
-        {/* {product} */}
-      </div>
-
-      <div className="home__row">{/* {product} */}</div>
+          />
+          <div className="home__row">
+              {/* {product1} */}
+              
+             </div>
 
       <p> The Home component</p>
-    </div>
+      </div>
+      
+   
   );
 }
 

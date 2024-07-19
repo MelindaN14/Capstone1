@@ -32,7 +32,12 @@ function Home() {
         {/* {product} */}
       </div>
 
-      <div className="home__row">{/* {product} */}</div>
+      <div className="home__row">
+        {/* {product} */}
+        {/* {product} */}
+        
+              
+      </div>
 
       <p> The Home component</p>
     </div>

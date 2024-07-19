@@ -3,7 +3,7 @@ import "./Header.css";
 import header__logo from "./Alogo._TTD_.png";
 import SearchIcon from "@mui/icons-material/Search";
 import ShoppingBasketIcon from "@mui/icons-material/ShoppingBasket";
-// import from "./pexels-photo-281260.jpeg";
+import from "./pexels-photo-281260.jpeg";
 function Header() {
   return (
     // <React.Fragment>
@@ -40,6 +40,7 @@ function Header() {
           <ShoppingBasketIcon />
           <span className="header__optionLineTwo header__basketCount">0</span>
         </div>
+        <
       </div>
     </div>
   );

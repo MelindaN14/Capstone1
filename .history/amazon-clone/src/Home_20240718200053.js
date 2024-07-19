@@ -22,8 +22,8 @@ function Home() {
         alt=""
       />
       <div className="home__row">
-        {/* {product} */}
-        {/* {product} */}
+        {/* {product1} */}
+        {/* {product1} */}
       </div>
 
       <div className="home__row">
@@ -31,8 +31,6 @@ function Home() {
         {/* {product} */}
         {/* {product} */}
       </div>
-
-      <div className="home__row">{/* {product} */}</div>
 
       <p> The Home component</p>
     </div>
