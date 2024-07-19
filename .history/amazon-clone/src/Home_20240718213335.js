@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.css";
 import "./App.css";
-import "./Header.js";
+import Header from "./Header.js";
 import header__logo from "./Alogo._TTD_.png";
 import Product from "./Product";
 // import "./pexels-photo-281260.jpeg;
@@ -19,7 +19,8 @@ function Home() {
 
       <div className="home__row">
         {/* {product} */}
-        <Product />
+        <product />
+        <product />
       </div>
 
       <div className="home__row">
@@ -28,8 +29,8 @@ function Home() {
         <product />
       </div>
 
+      {/* <div className="home__row">{/* {product} */}</div> */}
       <div className="product__imnfo"></div>
-
       <div className="headerLogo" />
       <img
         className="header__logo"
@@ -37,7 +38,7 @@ function Home() {
         alt=""
       />
 
-      {/* <p> The Home component</p> */}
+      <p> The Home component</p>
     </div>
   );
 }

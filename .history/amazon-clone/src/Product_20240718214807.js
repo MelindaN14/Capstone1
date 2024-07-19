@@ -19,8 +19,8 @@ function Product() {
                     <p>*</p>
                     <p>*</p>
                 </div>
-            </div>;
-        </div>
+            </div>
+        </div>;
   );
 }
 

@@ -4,16 +4,16 @@ import header__logo from "./Alogo._TTD_.png";
 import SearchIcon from "@mui/icons-material/Search";
 import ShoppingBasketIcon from "@mui/icons-material/ShoppingBasket";
 // import from "./pexels-photo-281260.jpeg";
-import "./Product";
+import "./Product
 function Header() {
   return (
     // <React.Fragment>
     <div className="header">
       <img
         className="header__logo"
-        src="Alogo._TTD_.png"
+        src="amazon-clone/src/Alogo._TTD_.png"
         // fix image its not on the header?!
-        alt=""
+        alt="amazon-clone/src/Alogo._TTD_.png"
       />
       <div className="header__search">
         <input className="header__searchInput" type="text" />

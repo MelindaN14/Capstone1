@@ -1,9 +1,9 @@
 import React from "react";
 import "./Home.css";
 import "./App.css";
-import "./Header.js";
+import  "./Header.js";
 import header__logo from "./Alogo._TTD_.png";
-import Product from "./Product";
+import "./Product.js";
 // import "./pexels-photo-281260.jpeg;
 // import ListIcon from "@mui/icons-material/List";
 
@@ -19,7 +19,8 @@ function Home() {
 
       <div className="home__row">
         {/* {product} */}
-        <Product />
+        <product />
+        <product />
       </div>
 
       <div className="home__row">
@@ -37,7 +38,7 @@ function Home() {
         alt=""
       />
 
-      {/* <p> The Home component</p> */}
+      <p> The Home component</p>
     </div>
   );
 }

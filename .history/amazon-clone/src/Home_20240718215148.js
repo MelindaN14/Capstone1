@@ -11,15 +11,16 @@ function Home() {
   return (
     <div className="home">
       <div className="home__container" />
-      <img
+      {/* <img
         className="home__image"
         src="amazon-clone/src/pexels-photo-281260.jpeg"
         alt=""
-      />
+      /> */}
 
       <div className="home__row">
         {/* {product} */}
-        <Product />
+        <product />
+        <product />
       </div>
 
       <div className="home__row">
@@ -37,7 +38,7 @@ function Home() {
         alt=""
       />
 
-      {/* <p> The Home component</p> */}
+      <p> The Home component</p>
     </div>
   );
 }
