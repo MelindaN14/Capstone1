@@ -3,7 +3,7 @@ import "./Home.css";
 import "./App.css";
 import Header from "./Header.js";
 import header__logo from "./Alogo._TTD_.png";
-import Product from "./Product.js";
+import Product from 
 // import "./pexels-photo-281260.jpeg;
 // import ListIcon from "@mui/icons-material/List";
 
