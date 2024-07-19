@@ -26,7 +26,7 @@ function App() {
       {/* <div className={Styles.block}></div> */}
       {/* <Header/> */}
       <Home />
-      <Header />
+      <Header/>
     </div>
   );
 }

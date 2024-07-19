@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
-import Header from "./Header.js";
-import "./Header";
+// import Header from "./Header.js";
+// import "./Header";
 import header__logo from "./images/Alogo._TTD_.png";
 import "./Product.js";
 import Home from "./Home";

@@ -8,9 +8,10 @@ import home__image from "./images/blue.jpeg";
 
 function Home() {
   return (
-   < div className="home">
+    div className="home">
       <div className="home__container" />
        <img className="home__image" src={home__image} alt="" />
+
 
       <div className="home__row">
         {/* {product} */}

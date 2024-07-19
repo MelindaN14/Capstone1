@@ -27,6 +27,7 @@ function App() {
       {/* <Header/> */}
       <Home />
       <Header />
+      <div className
     </div>
   );
 }

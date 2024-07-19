@@ -13,6 +13,7 @@ function Header() {
         <SearchIcon className="header__searchIcon" />
         {/* {Logo} */}
       </div>
+<p>dhdhkdhkjahTEST</p>
       <div className="header__nav">
         <div className="header__option">
           <span className="header__optionLineOne">Hello Guest </span>

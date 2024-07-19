@@ -6,13 +6,14 @@ import ShoppingBasketIcon from "@mui/icons-material/ShoppingBasket";
 function Header() {
   return (
     // <React.Fragment>
-    <div className="header">
+    <div className="Header">
       <img className="Logo" src={header__logo} alt="" />
       <div className="header__search">
         <input className="header__searchInput" type="text" />
         <SearchIcon className="header__searchIcon" />
         {/* {Logo} */}
       </div>
+
       <div className="header__nav">
         <div className="header__option">
           <span className="header__optionLineOne">Hello Guest </span>

@@ -10,7 +10,7 @@ import Home from "./Home";
 // import compressorComp from "./Components/Compressor";
 // import "bootstrap/dist/css/bootstrap.css";
 // import from "./pexels-photo-281260.jpeg";
-// import Header from "./Header";
+import Header from "./Header";
 
 function App() {
   return (
