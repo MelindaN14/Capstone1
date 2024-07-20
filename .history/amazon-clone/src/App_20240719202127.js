@@ -9,6 +9,7 @@ function App() {
     //BEM
     <div className="App">
       <Header />
+      {/* <div className={Header}></div> */}
       <Home />
     </div>
   );
