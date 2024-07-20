@@ -8,7 +8,7 @@ function Header() {
   return (
     // <React.Fragment>
     <div className="header">
-      <img className="header__logo" src={header__logo} alt="" />
+      <img className="" src={header__logo} alt="" />
       <div className="header__search">
         <input className="header__searchInput" type="text" />
         <SearchIcon className="header__searchIcon" />

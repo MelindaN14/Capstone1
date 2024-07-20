@@ -23,7 +23,7 @@ function Home() {
       <div className="product__info"></div>
       <div className="logo" />
       <img className="header__logo" src="{header__logo}" alt="" />
-      {/* <p> The Home component</p> BEM */}
+      {/* <p> The Home component</p> */} B
     </div>
   );
 }
