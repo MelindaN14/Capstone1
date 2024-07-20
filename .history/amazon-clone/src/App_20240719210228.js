@@ -6,7 +6,7 @@ import Home from "./Home";
 
 function App() {
   return (
-   
+    //BEM Block Element Modifier
     <div className="App">
       <Header />
       <Home />
