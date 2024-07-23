@@ -17,7 +17,7 @@ function Product() {
         </div>
       </div>
       <img className="book" src={book} alt="" />
-      <button>Add to Cart</button>
+      <button>Add to </button>
     </div>
   );
 }
