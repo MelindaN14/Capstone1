@@ -8,9 +8,8 @@
   width: 20%;
   max-height: 400px;
   min-width: 100px;
-
-  background-color: white;
-  z-index: 1;
+  
+  background-color:white;
 }
 
 .book > img {
