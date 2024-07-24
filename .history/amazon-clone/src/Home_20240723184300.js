@@ -12,16 +12,14 @@ function Home() {
     <div className="home">
       <div className="home__container" />
       <img className="home__image" src={home__image} alt="" />
-
       <div className="home__row">
               <Product />
-              <Product />
-              <Product/>
+              <he
       </div>
       <div className="home__row">
-        {<product />}
-        {<product />}
-        {<product />}
+        <product />
+        <product />
+        <product />
       </div>
       <div className="product__info"></div>
       <div className="logo" />

@@ -3,7 +3,7 @@ import "./Product.css";
 import book from "./images/ACOTAR.jpeg";
 
 function Product() {
-  return (
+  return (s
     <div className="product">
       {/* product, title, info, basket */}
       <div className="product__info">
