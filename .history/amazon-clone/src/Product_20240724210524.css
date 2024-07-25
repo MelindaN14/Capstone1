@@ -1,4 +1,4 @@
-.Product {
+.roduct {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -41,5 +41,5 @@
 }
 
 .product__rating {
-  display: flex;
+    display:flex;
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import "./Product.css";
 import book from "./images/ACOTAR.jpeg";
-import image from "./images/beats pill.jpg";
+
 
 function Product({ title, image, price, rating }) {
   return (

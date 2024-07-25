@@ -6,7 +6,6 @@ import Product from "./Product";
 import home__image from "./images/blue.jpeg";
 import Header from "./Header";
 import book from "./images/ACOTAR.jpeg";
-import image from "./images/beats pill.jpg";
 // import ListIcon from "@mui/icons-material/List";
 
 function Home() {
@@ -22,12 +21,10 @@ function Home() {
           image={book}
           rating={5}
         />
-        <Product
-          title="Beats Pill Wireless Bluetooth Speaker"
-          price={149.95}
-          rating={4}
-          image="amazon-clone/src/images/beats pill.jpg"
-        />
+              <Product title="Beats Pill Wireless Bluetooth Speaker"
+                  price={149.95}
+                  rating={}
+        image={}      />
         <Product />
       </div>
       <div className="home__row">

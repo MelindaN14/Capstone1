@@ -6,7 +6,6 @@ import Product from "./Product";
 import home__image from "./images/blue.jpeg";
 import Header from "./Header";
 import book from "./images/ACOTAR.jpeg";
-import image from "./images/beats pill.jpg";
 // import ListIcon from "@mui/icons-material/List";
 
 function Home() {

@@ -1,7 +1,6 @@
 import React from "react";
 import "./Product.css";
 import book from "./images/ACOTAR.jpeg";
-import image from "./images/beats pill.jpg";
 
 function Product({ title, image, price, rating }) {
   return (
@@ -20,7 +19,7 @@ function Product({ title, image, price, rating }) {
             ))}
         </div>
       </div>
-      <img className="image" src={image} alt="" />
+      <img className="image" src={book} alt="" />
       <button>Add to Cart</button>
     </div>
   );
