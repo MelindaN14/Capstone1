@@ -5,7 +5,7 @@ import header__logo from "./images/Alogo._TTD_.png";
 import Product from "./Product";
 import home__image from "./images/blue.jpeg";
 import Header from "./Header";
-import book from "./images/ACOTAR.jpeg";
+import book from "./images/"
 // import ListIcon from "@mui/icons-material/List";
 
 function Home() {

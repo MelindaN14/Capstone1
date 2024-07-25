@@ -4,9 +4,10 @@ import book from "./images/ACOTAR.jpeg";
 
 function Product({ title, image, price, rating }) {
   return (
-    <div className="product">
+      <div className="product">
+          
       <div className="product__info">
-        <p>{title} </p>
+        <p> A Court Of{title} </p>
         <p className="product__price">
           <small>$</small>
           <strong>{price}</strong>{" "}

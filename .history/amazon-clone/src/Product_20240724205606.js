@@ -5,6 +5,7 @@ import book from "./images/ACOTAR.jpeg";
 function Product({ title, image, price, rating }) {
   return (
     <div className="product">
+      {/* product, title, info, basket */}
       <div className="product__info">
         <p>{title} </p>
         <p className="product__price">

@@ -5,7 +5,6 @@ import header__logo from "./images/Alogo._TTD_.png";
 import Product from "./Product";
 import home__image from "./images/blue.jpeg";
 import Header from "./Header";
-import book from "./images/ACOTAR.jpeg";
 // import ListIcon from "@mui/icons-material/List";
 
 function Home() {
@@ -15,11 +14,8 @@ function Home() {
       <img className="home__image" src={home__image} alt="" />
 
       <div className="home__row">
-        <Product
-          title="A Court Of Thorns and Roses"
-          price={17.59}
-          image={book}
-          rating={5}
+        <Product //   title="A Court Of Thorns and Roses" price {17.59} image={book} rating={5}
+        />
         />
         <Product />
         <Product />
