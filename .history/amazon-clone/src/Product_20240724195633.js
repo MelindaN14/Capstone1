@@ -2,7 +2,7 @@ import React from "react";
 import "./Product.css";
 import book from "./images/ACOTAR.jpeg";
 
-function Product({ title, image, price,rating }) {
+function Product() {
   return (
     <div className="product">
       {/* product, title, info, basket */}
@@ -16,7 +16,7 @@ function Product({ title, image, price,rating }) {
           <p>⭐️⭐️⭐️⭐️</p>
         </div>
       </div>
-      <img className="book" src={book} alt="" />
+      <img ?} alt="" />
       <button>Add to Cart</button>
     </div>
   );

@@ -12,9 +12,12 @@
   background-color: white;
   z-index: 1;
 }
-/* 
-.product{;
-} */
+
+.product{
+display: flex;
+}
+
+
 
 .book > img {
   max-height: 200px;

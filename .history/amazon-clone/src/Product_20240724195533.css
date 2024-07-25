@@ -12,10 +12,8 @@
   background-color: white;
   z-index: 1;
 }
-/* 
-.product{;
-} */
 
+.product
 .book > img {
   max-height: 200px;
   width: 50%;

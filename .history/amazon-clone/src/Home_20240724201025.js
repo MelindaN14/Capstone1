@@ -19,9 +19,7 @@ function Home() {
         <Product />
       </div>
       <div className="home__row">
-              <Product
-                  title="A Court Of Thorns and Roses" price {17.59} image={book} rating={5}
-              />
+              {<product title="A Court Of Thorns and Roses" price {$} />}
         {<product />}
         {<product />}
       </div>

@@ -14,14 +14,12 @@ function Home() {
       <img className="home__image" src={home__image} alt="" />
 
       <div className="home__row">
-        <Product />
-        <Product />
-        <Product />
+              <Product />
+              <Product />
+              <Product/>
       </div>
       <div className="home__row">
-              <Product
-                  title="A Court Of Thorns and Roses" price {17.59} image={book} rating={5}
-              />
+        {<product title= "" />}
         {<product />}
         {<product />}
       </div>

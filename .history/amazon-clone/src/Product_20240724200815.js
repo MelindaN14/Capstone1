@@ -2,7 +2,7 @@ import React from "react";
 import "./Product.css";
 import book from "./images/ACOTAR.jpeg";
 
-function Product({ title, image, price,rating }) {
+function Product({ title, image, price }) {
   return (
     <div className="product">
       {/* product, title, info, basket */}
