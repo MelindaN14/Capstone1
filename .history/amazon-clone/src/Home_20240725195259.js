@@ -7,7 +7,7 @@ import home__image from "./images/amazon-border.jpg";
 import Header from "./Header";
 import book from "./images/ACOTAR.jpeg";
 import beats from "./images/beats pill.jpg";
-// import images from "./images";
+import images from "./images";
 import eero from "./images/eero.jpg";
 // import ListIcon from "@mui/icons-material/List";
 

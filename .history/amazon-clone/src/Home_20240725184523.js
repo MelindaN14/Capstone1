@@ -3,12 +3,10 @@ import "./Home.css";
 // import "./Header.js";
 import header__logo from "./images/Alogo._TTD_.png";
 import Product from "./Product";
-import home__image from "./images/amazon-border.jpg";
+import home__image from "./images/";
 import Header from "./Header";
 import book from "./images/ACOTAR.jpeg";
-import beats from "./images/beats pill.jpg";
-// import images from "./images";
-import eero from "./images/eero.jpg";
+import image from "./images/beats pill.jpg";
 // import ListIcon from "@mui/icons-material/List";
 
 function Home() {
@@ -28,14 +26,9 @@ function Home() {
           title="Beats Pill Wireless Bluetooth Speaker"
           price={149.95}
           rating={4}
-          image={beats}
+          image="amazon-clone/src/images/beats pill.jpg"
         />
-        <Product
-          title="Amazon eero mesh wifi router"
-          price={69.99}
-          rating={5}
-          image={eero}
-        />
+        <Product />
       </div>
       <div className="home__row">
         <Product />

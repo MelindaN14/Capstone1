@@ -7,8 +7,8 @@ import home__image from "./images/amazon-border.jpg";
 import Header from "./Header";
 import book from "./images/ACOTAR.jpeg";
 import beats from "./images/beats pill.jpg";
-// import images from "./images";
-import eero from "./images/eero.jpg";
+import images from "./images";
+import
 // import ListIcon from "@mui/icons-material/List";
 
 function Home() {
@@ -33,8 +33,8 @@ function Home() {
         <Product
           title="Amazon eero mesh wifi router"
           price={69.99}
-          rating={5}
-          image={eero}
+                  rating={5}
+                //   image={}
         />
       </div>
       <div className="home__row">
