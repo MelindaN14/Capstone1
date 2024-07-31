@@ -1,8 +1,8 @@
 import React from "react";
 import "./App.css";
 import Header from "./components/Header";
-import "./components/Product";
-import Home from "./routes/Home";
+import "./Product";
+import Home from "./Home";
 
 function App() {
   return (

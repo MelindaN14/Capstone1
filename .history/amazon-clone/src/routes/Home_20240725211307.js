@@ -2,15 +2,17 @@ import React from "react";
 import "./Home.css";
 // import "./Header.js";
 import header__logo from "./images/Alogo._TTD_.png";
-import Product from "./Product";
+import Product from "../components/Product";
 import home__image from "./images/amazon-border.jpg";
-import Header from "./Header";
-import book from "./images/ACOTAR.jpeg";
+import Header from "../components/Header";
+import book from "./Users/melindananjad/Documents/Capstone1/amazon-clone/src/images/ACOTAR.jpeg";
 import beats from "./images/beats pill.jpg";
+import Ipad from "./images/apple-tablet.jpg";
+import echo from "./images/echo-show.jpg";
 // import images from "./images";
 import eero from "./images/eero.jpg";
 // import ListIcon from "@mui/icons-material/List";
-
+ß
 function Home() {
   return (
     <div className="home">
@@ -38,8 +40,21 @@ function Home() {
         />
       </div>
       <div className="home__row">
-        <Product />
-        {<product />}
+        <Product
+          title="Apple Ipad (10th Generation): with A14 Bionic chip, 10.9-inch Liquid Retina Display, 
+              64GB, Wi-Fi 6, 12MP front/12MP Back Camera, Touch ID, All-Day Battery Life – Blue"
+          price={299.99}
+          rating={5}
+          image={Ipad}
+        />
+        <Product
+          title="Amazon Echo Show 8 (3rd Gen, 2023 release) 
+                  | With Spatial Audio, Smart Home Hub, and Alexa | 
+                  Charcoal"
+          price={149.99}
+          rating={4}
+          image={echo}
+        />
         {<product />}
       </div>
       <div className="product__info"></div>
