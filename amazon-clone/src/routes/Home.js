@@ -5,12 +5,10 @@ import "../components/Header.js";
 import header__logo from "../images/Alogo._TTD_.png";
 import Product from "../components/Product.js";
 import home__image from "../images/amazon-border.jpg";
-import Header from "../components/Header";
 import beats from "../images/beats pill.jpg";
 import Ipad from "../images/apple-tablet.jpg";
 import echo from "../images/echo-show.jpg";
 import printer from "../images/hp-printer.jpg";
-// import images from "..images";
 import eero from "../images/eero.jpg";
 // import ListIcon from "@mui/icons-material/List";
 
@@ -22,6 +20,7 @@ function Home() {
 
       <div className="home__row">
         <Product
+          id="12141762"
           title="A Court Of Thorns and Roses"
           price={17.59}
           image={Book}
@@ -62,7 +61,6 @@ function Home() {
           rating={4}
           image={printer}
         />
-        
       </div>
       <div className="product__info"></div>
       <div className="logo" />
