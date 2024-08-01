@@ -13,14 +13,13 @@ function App() {
         <Switch>
           <Route path="/checkout"
         <Header>
-          </Route>
-          <Route path="/">
-          </Header>
+            <h1> Checkout page in progress </h1>
+            <App
           <Home />
-        </Route>
-        </Switch>
+          </Route>
       </div>
     </Router>
+    </Switch>
   );
 }
 

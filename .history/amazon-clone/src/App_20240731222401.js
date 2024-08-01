@@ -13,6 +13,7 @@ function App() {
         <Switch>
           <Route path="/checkout"
         <Header>
+            
           </Route>
           <Route path="/">
           </Header>

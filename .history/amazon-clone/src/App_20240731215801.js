@@ -9,18 +9,16 @@ function App() {
   return (
     //BEM
     <Router>
-      <div className="app">
+      <div className="App">
         <Switch>
           <Route path="/checkout"
-        <Header>
-          </Route>
-          <Route path="/">
-          </Header>
+        <Header />
+          <h1></h1>
           <Home />
-        </Route>
-        </Switch>
+          </Route>
       </div>
     </Router>
+    </Switch>
   );
 }
 
