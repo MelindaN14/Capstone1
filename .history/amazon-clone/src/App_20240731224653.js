@@ -3,23 +3,23 @@ import "./App.css";
 import Header from "./components/Header";
 import "./components/Product";
 import Home from "./routes/Home";
-import { BrowserRouter as Router, Routes } from "react-router-dom";
-import Checkout from "./components/Checkout";
+import { BrowserRouter as Router, Switch, Route }
+  from "react-router-dom";
 
 function App() {
   return (
     //BEM
     <Router>
-      <div className="app">
+      <div className= "app">
         <Switch>
           <Route path="/checkout">
-            <Header />
-            <Checkout />
+            <Header/>
+              <Checkout/>
           </Route>
           <Route path="/">
-            <Header />
-            <Home />
-          </Routes>
+          <Header/</Switch>>
+          <Home />
+        </Route>
         </Switch>
       </div>
     </Router>

@@ -19,7 +19,7 @@ function App() {
           <Route path="/">
             <Header />
             <Home />
-          </Routes>
+          </Route>
         </Switch>
       </div>
     </Router>
