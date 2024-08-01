@@ -2,10 +2,11 @@ import React from "react";
 import "./Home.css";
 import Book from "../images/ACOTAR.jpeg";
 import "../components/Header.js";
-import header__logo from "../images/Alogo._TTD_.png";
+// import header__logo from "./";
 import Product from "../components/Product.js";
 import home__image from "../images/amazon-border.jpg";
-import Header from "../components/Header";
+// import Header from "../components/Header";
+// import book from "./Users/melindananjad/Documents/Capstone1/amazon-clone/src/images/ACOTAR.jpeg";
 import beats from "../images/beats pill.jpg";
 import Ipad from "../images/apple-tablet.jpg";
 import echo from "../images/echo-show.jpg";
@@ -62,11 +63,10 @@ function Home() {
           rating={4}
           image={printer}
         />
-        
       </div>
       <div className="product__info"></div>
       <div className="logo" />
-      <img className="header__logo" src={header__logo} alt="" />
+      <img className="header__logo" src="{header__logo}" alt="" />
       {/* <p> The Home component</p> BEM */}
     </div>
   );

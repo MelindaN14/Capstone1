@@ -62,7 +62,6 @@ function Home() {
           rating={4}
           image={printer}
         />
-        
       </div>
       <div className="product__info"></div>
       <div className="logo" />

@@ -30,14 +30,7 @@
   margin-bottom: 15px;
 }
 
-.eero > img {
-  max-height: 200px;
-  width: 50%;
-  object-fit: contain;
-  margin-bottom: 15px;
-}
-
-.Ipad {
+.eero {
   max-height: 200px;
   width: 50%;
   object-fit: contain;

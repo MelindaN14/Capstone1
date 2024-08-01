@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.css";
-import header__logo from "../images/Alogo._TTD_.png";
+import header__logo from "../images/"
 import SearchIcon from "@mui/icons-material/Search";
 import ShoppingBasketIcon from "@mui/icons-material/ShoppingBasket";
 
@@ -8,7 +8,7 @@ function Header() {
   return (
     // <React.Fragment>
     <div className="header">
-      <img className="header__logo" src={header__logo} alt="" />
+      {/* <img className="header__logo" src={header__logo} alt="" /> */}
       <div className="header__search">
         <input className="header__searchInput" type="text" />
         <SearchIcon className="header__searchIcon" />

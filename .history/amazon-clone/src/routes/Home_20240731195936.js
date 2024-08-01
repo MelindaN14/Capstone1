@@ -10,7 +10,7 @@ import beats from "../images/beats pill.jpg";
 import Ipad from "../images/apple-tablet.jpg";
 import echo from "../images/echo-show.jpg";
 import printer from "../images/hp-printer.jpg";
-// import images from "..images";
+import images from "..images";
 import eero from "../images/eero.jpg";
 // import ListIcon from "@mui/icons-material/List";
 
@@ -62,7 +62,6 @@ function Home() {
           rating={4}
           image={printer}
         />
-        
       </div>
       <div className="product__info"></div>
       <div className="logo" />

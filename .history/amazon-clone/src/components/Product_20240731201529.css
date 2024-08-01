@@ -23,26 +23,7 @@
   margin-bottom: 15px;
 }
 
-.beats > img {
-  max-height: 200px;
-  width: 50%;
-  object-fit: contain;
-  margin-bottom: 15px;
-}
 
-.eero > img {
-  max-height: 200px;
-  width: 50%;
-  object-fit: contain;
-  margin-bottom: 15px;
-}
-
-.Ipad {
-  max-height: 200px;
-  width: 50%;
-  object-fit: contain;
-  margin-bottom: 15px;
-}
 
 .product__price {
   margin-top: 5px;
