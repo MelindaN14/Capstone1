@@ -12,12 +12,13 @@ function App() {
     <Router>
       <div className="app">
         <Routes>
-          <Route path="/checkout" />n
-          <Checkout />
-          <Router />
-          <Route path="/" />
-          <Header />
-          <Home />
+          <Route path="/checkout"/>
+            <Header />
+            <Checkout />
+          <Router/>
+          <Route path="/"/>
+            <Header />
+            <Home />
         </Routes>
       </div>
     </Router>

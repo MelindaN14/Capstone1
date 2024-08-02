@@ -12,7 +12,8 @@ function App() {
     <Router>
       <div className="app">
         <Routes>
-          <Route path="/checkout" />n
+          <Route path="/checkout" />
+          <Header />
           <Checkout />
           <Router />
           <Route path="/" />

@@ -3,7 +3,7 @@ import "./App.css";
 import Header from "./components/Header";
 import "./components/Product";
 import Home from "./routes/Home";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes } from "react-router-dom";
 import Checkout from "./components/Checkout";
 
 function App() {
@@ -12,12 +12,13 @@ function App() {
     <Router>
       <div className="app">
         <Routes>
-          <Route path="/checkout" />n
-          <Checkout />
-          <Router />
-          <Route path="/" />
-          <Header />
-          <Home />
+          <Route path="/checkout"/>
+            <Header />
+            <Checkout />
+          <Router>
+          <Route path="/"/>
+            <Header />
+            <Home />
         </Routes>
       </div>
     </Router>

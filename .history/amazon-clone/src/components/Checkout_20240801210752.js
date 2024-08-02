@@ -7,8 +7,7 @@ function Checkout() {
       <div className="checkout__left">
         <img
           className="checkout__ad"
-          src="../images/amazon-border.jpg"
-          alt=""
+          src="../images/amazon-border.jpg"   alt=""
         />
         <div>
           <h2 className="checkout__title">Your shopping Basket</h2>
