@@ -14,7 +14,7 @@ function Checkout() {
           <h2 className="checkout__title">Your shopping Basket</h2>
         </div>
           </div>
-          {/* basket area */}
+          
       <div className="checkout__right"></div>
 
       <h1>Test me</h1>
