@@ -8,17 +8,10 @@ import Checkout from "./components/Checkout";
 
 function App() {
   return (
-    // BEM
-
+    //BEM
     <Router>
-      <Header />
-      <Home/>
       <div className="app">
-        <Routes>
-          <Route path="/checkout"></Route>
-          <Route path="/">
-          </Route>
-        </Routes>
+        
       </div>
     </Router>
   );

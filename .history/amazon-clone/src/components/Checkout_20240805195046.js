@@ -15,7 +15,9 @@ function Checkout() {
         </div>
       </div>
       <div className="checkout__right"></div>
-
+      npm warn deprecated babel@6.23.0: In 6.x, the babel package has been
+      deprecated in favor of babel-cli. Check https://opencollective.com/babel
+      to support the Babel maintainers
       <h1>Test me</h1>
     </div>
   );

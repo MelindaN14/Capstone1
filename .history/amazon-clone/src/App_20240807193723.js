@@ -9,14 +9,17 @@ import Checkout from "./components/Checkout";
 function App() {
   return (
     // BEM
-
+   
     <Router>
-      <Header />
-      <Home/>
       <div className="app">
         <Routes>
-          <Route path="/checkout"></Route>
+          <Route path="/checkout">
+          
+         
+          </Route>
           <Route path="/">
+          
+            <Home />
           </Route>
         </Routes>
       </div>

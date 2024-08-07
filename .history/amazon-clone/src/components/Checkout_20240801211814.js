@@ -15,7 +15,6 @@ function Checkout() {
         </div>
       </div>
       <div className="checkout__right"></div>
-
       <h1>Test me</h1>
     </div>
   );
