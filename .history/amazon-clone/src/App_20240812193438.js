@@ -5,7 +5,7 @@ import "./components/Product";
 import Home from "./routes/Home";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // import { HashRouter } from "react-router-dom";
-import Checkout from "./components/Checkout";
+import Checkout  from "./components/Checkout";
 
 function App() {
   return (
@@ -14,10 +14,11 @@ function App() {
     <Router>
       <Header />
       <Home />
+      <Checkout />
       <div className="app">
         <Routes>
-          <Route path="/" element={<Checkout />} />
-          {/* <Route path="/"> element={ } */}
+          <Route path="./components/Checkout.js" element={<Checkout />} />
+          <Route path="/"></Route>
         </Routes>
       </div>
     </Router>

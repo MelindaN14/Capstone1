@@ -1,6 +1,6 @@
 import React from "react";
 import "./Checkout.css";
-import { HashRouter } from "react-router-dom";
+import has
 
 function Checkout() {
   return (

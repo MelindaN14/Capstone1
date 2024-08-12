@@ -5,7 +5,18 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import "./components/Header.js";
 import "./routes/Home.js"; //
+import * as React from 'react';
+import {NavigationContainer} from '@react-navigation/native';
 
+const App = () => {
+  return (
+    <NavigationContainer>
+      {/* Rest of your app code */}
+    </NavigationContainer>
+  );
+};
+
+export default App;
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

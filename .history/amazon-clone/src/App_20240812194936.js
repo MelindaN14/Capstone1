@@ -12,12 +12,11 @@ function App() {
     // BEM
 
     <Router>
-      <Header />
-      <Home />
       <div className="app">
         <Routes>
-          <Route path="/" element={<Checkout />} />
-          {/* <Route path="/"> element={ } */}
+            <Route path="/" element={<Checkout />} />
+            {/* <Route path="/"> element={ } */}
+        
         </Routes>
       </div>
     </Router>

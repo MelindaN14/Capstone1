@@ -14,6 +14,7 @@ function App() {
     <Router>
       <Header />
       <Home />
+      <Checkout />
       <div className="app">
         <Routes>
           <Route path="/" element={<Checkout />} />
