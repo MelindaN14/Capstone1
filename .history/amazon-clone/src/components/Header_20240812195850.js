@@ -9,7 +9,12 @@ function Header() {
   return (
     // <React.Fragment>
     <div className="header">
-      <Link to="/checkout"></Link>
+      <Link to="/checkout">
+        <div className="header__optionBasket">
+          <ShoppingBasketIcon />
+          <span className="header__optionLineTwo header__bascketCount">0</span>
+        </div>
+      </Link>
       <img className="header__logo" src={header__logo} alt="" />
       <div className="header__search">
         <input className="header__searchInput" type="text" />
