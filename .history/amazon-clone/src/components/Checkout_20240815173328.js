@@ -1,14 +1,14 @@
 import React from "react";
 import "./Checkout.css";
-import checkout__ad from "../images/amazon-border.jpg";
+import home__image from "../images/amazon-border.jpg";
 
 function Checkout() {
   return (
     <div className="checkout">
       <div className="checkout__left">
         <img
-          className="checkout__ad"
-          src={checkout__ad}
+          className="{checkout__ad"
+          src="../images/amazon-border.jpg"
           alt="amazon"
         />
         <div>

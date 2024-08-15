@@ -1,6 +1,6 @@
 import React from "react";
 import "./Checkout.css";
-import checkout__ad from "../images/amazon-border.jpg";
+import
 
 function Checkout() {
   return (
@@ -8,7 +8,7 @@ function Checkout() {
       <div className="checkout__left">
         <img
           className="checkout__ad"
-          src={checkout__ad}
+          src="../images/amazon-border.jpg"
           alt="amazon"
         />
         <div>

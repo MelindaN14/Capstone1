@@ -7,8 +7,8 @@ function Checkout() {
     <div className="checkout">
       <div className="checkout__left">
         <img
-          className="checkout__ad"
-          src={checkout__ad}
+          className=
+          src=
           alt="amazon"
         />
         <div>

@@ -1,6 +1,5 @@
 import React from "react";
 import "./Checkout.css";
-import checkout__ad from "../images/amazon-border.jpg";
 
 function Checkout() {
   return (
@@ -8,7 +7,7 @@ function Checkout() {
       <div className="checkout__left">
         <img
           className="checkout__ad"
-          src={checkout__ad}
+          src="../images/amazon-border.jpg"
           alt="amazon"
         />
         <div>
@@ -24,6 +23,7 @@ function Checkout() {
       {/* basket area */}
       <div className="checkout__right"></div>
       <h2> The Subtotal will go here</h2>
+      <h1>Test me</h1>
     </div>
   );
 }
