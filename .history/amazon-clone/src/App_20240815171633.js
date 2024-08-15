@@ -16,7 +16,10 @@ function App() {
 
         <Routes>
           <Route path="/Checkout" element={<Checkout />} />
+          <Checkout />
           <Route path="/" element={<Home />} />
+          <Header />
+          <Home />
           <Route />
         </Routes>
       </div>

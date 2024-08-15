@@ -16,6 +16,7 @@ function App() {
 
         <Routes>
           <Route path="/Checkout" element={<Checkout />} />
+          <Checkout />
           <Route path="/" element={<Home />} />
           <Route />
         </Routes>

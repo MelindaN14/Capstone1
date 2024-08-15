@@ -1,6 +1,7 @@
 import React from "react";
 import "./Checkout.css";
 
+
 function Checkout() {
   return (
     <div className="checkout">
@@ -8,7 +9,7 @@ function Checkout() {
         <img
           className="checkout__ad"
           src="../images/amazon-border.jpg"
-          alt="amazon"
+          alt=""
         />
         <div>
           <h2 className="checkout__title">Your shopping Basket</h2>

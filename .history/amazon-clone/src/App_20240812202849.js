@@ -10,14 +10,14 @@ import Checkout from "./components/Checkout";
 function App() {
   return (
     // BEM
-    <Router>
-      <div className="app">
-        <Header />
 
+    <Router>
+      <Header />
+      <Home />
+      <div className="app">
         <Routes>
-          <Route path="/Checkout" element={<Checkout />} />
-          <Route path="/" element={<Home />} />
-          <Route />
+          <Route path="/" element={<Checkout/>} />
+          {/* <Route path="./components"> element={ } */}
         </Routes>
       </div>
     </Router>
