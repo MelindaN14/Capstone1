@@ -34,6 +34,7 @@ stripe.customers
         {/* <Subtotal/> */}
       </div>
       <h2> The Subtotal will go here</h2>
+    </div
     </div>
   );
 }

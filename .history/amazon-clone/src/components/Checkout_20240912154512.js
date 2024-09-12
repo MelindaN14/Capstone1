@@ -34,6 +34,15 @@ stripe.customers
         {/* <Subtotal/> */}
       </div>
       <h2> The Subtotal will go here</h2>
+    {/* </div>
+    <button on click={makePayment}
+        className={`text-white ${
+          tAmount === 0 ? 0 : "bg=primary"} p-2 rounded-sm w-full`}
+    >
+        Pay ${tAmount === 0 ? 0 : tAmount.toFixed(2)}
+    </button>
+    // // </div> */}
+    //     }`}
     </div>
   );
 }
