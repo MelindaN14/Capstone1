@@ -3,6 +3,7 @@ import "./Product.css";
 // import book from "./src/images/ACOTAR.jpeg";
 // import image from "./src/images/beats pill.jpg";
 
+
 function Product({ title, image, price, rating }) {
   return (
     <div className="product">
@@ -21,7 +22,7 @@ function Product({ title, image, price, rating }) {
         </div>
       </div>
       <img className="image" src={image} alt="" />
-      <button className="addToCartButton">Add to Cart</button>
+      <button className = >Add to Cart</button>
     </div>
   );
 }

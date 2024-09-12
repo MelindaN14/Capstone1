@@ -11,7 +11,6 @@ import echo from "../images/echo-show.jpg";
 import printer from "../images/hp-printer.jpg";
 import eero from "../images/eero.jpg";
 import ListIcon from "@mui/icons-material/List";
-// import css from "../components/Product.css";
 
 function Home() {
   return (

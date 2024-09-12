@@ -4,7 +4,6 @@ import header__logo from "../images/Alogo._TTD_.png";
 import SearchIcon from "@mui/icons-material/Search";
 import ShoppingBasketIcon from "@mui/icons-material/ShoppingBasket";
 import { Link } from "react-router-dom";
-import Sign from "../routes/Sign";
 
 function Header() {
   return (
@@ -21,7 +20,7 @@ function Header() {
       <div className="header__nav">
         <div className="header__option">
           <span className="header__optionLineOne">Hello Guest </span>
-          <Link to="/src/routes/Sign.js"> Sign in </Link>
+          <Link></Linl>
           <span className="header__optionLineTwo">Sign In</span>
         </div>
 
@@ -43,8 +42,12 @@ function Header() {
         </Link>
       </div>
       <div>
+
+
         <Link to="../routes/Sign.js">
-          <div className="header__optionLineTwo"></div>
+          <div className="header__optionLineTwo">
+          
+          </div>
         </Link>
       </div>
     </div>

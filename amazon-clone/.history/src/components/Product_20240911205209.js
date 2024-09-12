@@ -2,6 +2,11 @@ import React from "react";
 import "./Product.css";
 // import book from "./src/images/ACOTAR.jpeg";
 // import image from "./src/images/beats pill.jpg";
+export const PRODUCTS = [
+  {
+    
+
+  }]
 
 function Product({ title, image, price, rating }) {
   return (
@@ -21,7 +26,7 @@ function Product({ title, image, price, rating }) {
         </div>
       </div>
       <img className="image" src={image} alt="" />
-      <button className="addToCartButton">Add to Cart</button>
+      <button>Add to Cart</button>
     </div>
   );
 }
