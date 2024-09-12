@@ -16,9 +16,9 @@ function App() {
         <Header />
 
         <Routes>
-          <Route path="/Checkout" element={<Checkout />} />
+          <Route path="/Checkout" element={<Checkout/>} />
           <Route path="/" element={<Home />} />
-          <Route path="/src/routes/Sign.js" element={<Sign/>} />
+          <Route path="/src/routes/Sign.js" element={/>
           <Route />
         </Routes>
       </div>

@@ -6,7 +6,7 @@ import Home from "./routes/Home";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // import { HashRouter } from "react-router-dom";
 import Checkout from "./components/Checkout";
-import Sign from "./routes/Sign";
+import Si
 
 function App() {
   return (
@@ -16,9 +16,9 @@ function App() {
         <Header />
 
         <Routes>
-          <Route path="/Checkout" element={<Checkout />} />
+          <Route path="/Checkout" element={<Checkout/>} />
           <Route path="/" element={<Home />} />
-          <Route path="/src/routes/Sign.js" element={<Sign/>} />
+          <Route path="/src/routes/Sign.js"/>
           <Route />
         </Routes>
       </div>

@@ -24,10 +24,9 @@ function Checkout() {
       </div>
       {/* basket area */}
       <div className="checkout__right">
-        {/* <Subtotal/> */}
+        <Subtotal/>
       </div>
       <h2> The Subtotal will go here</h2>
-    
     </div>
   );
 }

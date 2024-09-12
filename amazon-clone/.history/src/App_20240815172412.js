@@ -6,7 +6,6 @@ import Home from "./routes/Home";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // import { HashRouter } from "react-router-dom";
 import Checkout from "./components/Checkout";
-import Sign from "./routes/Sign";
 
 function App() {
   return (
@@ -18,7 +17,6 @@ function App() {
         <Routes>
           <Route path="/Checkout" element={<Checkout />} />
           <Route path="/" element={<Home />} />
-          <Route path="/src/routes/Sign.js" element={<Sign/>} />
           <Route />
         </Routes>
       </div>

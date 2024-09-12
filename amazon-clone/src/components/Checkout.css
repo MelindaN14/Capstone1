@@ -13,7 +13,8 @@
 
 .checkout__ad {
   display: flex;
-  width: 100%;
+  width: 75%;
+  height: fit-content;
   margin-bottom: 10px;
   padding: auto;
 }

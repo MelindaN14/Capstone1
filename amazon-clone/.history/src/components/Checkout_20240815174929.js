@@ -1,7 +1,7 @@
 import React from "react";
 import "./Checkout.css";
 import checkout__ad from "../images/amazon-border.jpg";
-// import "./Subtotal";
+import "./Subtotal";
 
 function Checkout() {
   return (
@@ -24,10 +24,9 @@ function Checkout() {
       </div>
       {/* basket area */}
       <div className="checkout__right">
-        {/* <Subtotal/> */}
+        <Subtotal/>
       </div>
       <h2> The Subtotal will go here</h2>
-    
     </div>
   );
 }
